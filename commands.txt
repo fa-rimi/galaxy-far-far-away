@@ -42,4 +42,4 @@ Part 8: Final
     22. $ cd .. && rm -r death_star
     23. $ mv -n x_wing yavin_4 && mv -n millenium_falcon yavin_4
 
-    
+DONE!
