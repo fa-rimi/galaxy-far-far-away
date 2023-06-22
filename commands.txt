@@ -17,7 +17,7 @@ Part 3: Copy
 Part 4: Move
     6. $ cd tatooine && mv luke.txt obi_wan.txt millenium_falcon
     7. $ mv millenium_falcon ../
-    8. $ mv -n millenium_falcon death_star
+    8. $ cd .. && mv -n millenium_falcon death_star
     9. $ cd death_star && mv princess_leia.txt millenium_falcon
 
 Part 5: Remove
@@ -32,7 +32,7 @@ Part 6: All Together
     16. $ cd ../death_star && mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3 
     17. $ mv darth_vader.txt tie_fighter_1
     18. $ cp storm_trooper.txt tie_fighter_2 && cp storm_trooper.txt tie_fighter_3 (~ come back to this section -- look for an easier way ~)
-    19. $ mv tie_fighter_1 .. && mv tie_fighter_2 .. mv tie_fighter_3 ..
+    19. $ mv tie_fighter_1 .. && mv tie_fighter_2 .. && mv tie_fighter_3 .. 
 
 Part 7: Remove -r
     20. cd .. && rm -r tie_fighter_2 tie_fighter_3
